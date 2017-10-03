@@ -23,5 +23,5 @@ $familyGriffin = [
     "genio do mau" => "Stewie"
 ];
 
-foreach ($familyGriffin as $familyLink => $person)
-    printf("%s é %s\n", $person, $familyLink);
+foreach ($familyGriffin as $person)
+    printf("%s\n", $person);
